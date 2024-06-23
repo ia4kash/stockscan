@@ -1,4 +1,4 @@
-import 'package:stockscan/utils/helper/exception_handler.dart';
+import 'package:stockscan/utils/exception_handler.dart';
 
 class RepoResponse<T> {
   final APIException? error;

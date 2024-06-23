@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:stockscan/app/data/values/constants.dart';
 import 'package:stockscan/app/data/values/env.dart';
-import 'package:stockscan/utils/helper/exception_handler.dart';
+import 'package:stockscan/utils/exception_handler.dart';
 
 class NetworkRequester {
   late Dio _dio;
